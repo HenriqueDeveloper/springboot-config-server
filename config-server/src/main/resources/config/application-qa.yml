@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: greeting-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+person:
+  name: "Carlos Henrique"
+  age: "22"
